@@ -1,0 +1,34 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "DesktopFarm",
+            "id": "2dfccc14-83fc-423f-b82b-022c1ee96ccc",
+            "actions": [
+                {
+                    "name": "GrowPlants",
+                    "type": "Button",
+                    "id": "e1cdf7cd-fccf-4c76-83a9-1d1d7b8b9184",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "eb643f02-67f7-44f5-af29-ae8fbf061187",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GrowPlants",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
